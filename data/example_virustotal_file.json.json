@@ -1,0 +1,441 @@
+{
+    "md5": "44d88612fea8a8f36de82e1278abb02f",
+    "permalink": "https://www.virustotal.com/gui/file/275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f/detection/f-275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f-1723998132",
+    "positives": 67,
+    "resource": "44d88612fea8a8f36de82e1278abb02f",
+    "response_code": 1,
+    "scan_date": "2024-08-18 16:22:12",
+    "scan_id": "275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f-1723998132",
+    "scans": {
+        "ALYac": {
+            "detected": true,
+            "result": "Misc.Eicar-Test-File",
+            "update": "20240818",
+            "version": "2.0.0.10"
+        },
+        "APEX": {
+            "detected": true,
+            "result": "EICAR Anti-Virus Test File",
+            "update": "20240816",
+            "version": "6.564"
+        },
+        "AVG": {
+            "detected": true,
+            "result": "EICAR Test-NOT virus!!!",
+            "update": "20240818",
+            "version": "23.9.8494.0"
+        },
+        "Acronis": {
+            "detected": false,
+            "result": null,
+            "update": "20240328",
+            "version": "1.2.0.121"
+        },
+        "AhnLab-V3": {
+            "detected": true,
+            "result": "Virus/EICAR_Test_File",
+            "update": "20240818",
+            "version": "3.26.1.10507"
+        },
+        "Alibaba": {
+            "detected": true,
+            "result": "Virus:Win32/EICAR.A",
+            "update": "20190527",
+            "version": "0.3.0.5"
+        },
+        "Antiy-AVL": {
+            "detected": true,
+            "result": "TestFile/Win32.EICAR",
+            "update": "20240818",
+            "version": "3.0"
+        },
+        "Arcabit": {
+            "detected": true,
+            "result": "EICAR-Test-File (not a virus)",
+            "update": "20240717",
+            "version": "2022.0.0.18"
+        },
+        "Avast": {
+            "detected": true,
+            "result": "EICAR Test-NOT virus!!!",
+            "update": "20240818",
+            "version": "23.9.8494.0"
+        },
+        "Avast-Mobile": {
+            "detected": true,
+            "result": "Eicar",
+            "update": "20240818",
+            "version": "240818-00"
+        },
+        "Avira": {
+            "detected": true,
+            "result": "Eicar-Test-Signature",
+            "update": "20240818",
+            "version": "8.3.3.20"
+        },
+        "Baidu": {
+            "detected": true,
+            "result": "Win32.Test.Eicar.a",
+            "update": "20190318",
+            "version": "1.0.0.2"
+        },
+        "BitDefender": {
+            "detected": true,
+            "result": "EICAR-Test-File (not a virus)",
+            "update": "20240818",
+            "version": "7.2"
+        },
+        "BitDefenderTheta": {
+            "detected": true,
+            "result": "EICAR-Test-File (not a virus)",
+            "update": "20240816",
+            "version": "7.2.37796.0"
+        },
+        "Bkav": {
+            "detected": true,
+            "result": "W32.EicarTest.Trojan",
+            "update": "20240818",
+            "version": "2.0.0.1"
+        },
+        "CAT-QuickHeal": {
+            "detected": true,
+            "result": "EICAR.TestFile",
+            "update": "20240817",
+            "version": "22.00"
+        },
+        "CMC": {
+            "detected": true,
+            "result": "Eicar.test.file",
+            "update": "20240818",
+            "version": "2.4.2022.1"
+        },
+        "ClamAV": {
+            "detected": true,
+            "result": "Win.Test.EICAR_HDB-1",
+            "update": "20240818",
+            "version": "1.4.0.0"
+        },
+        "CrowdStrike": {
+            "detected": false,
+            "result": null,
+            "update": "20230417",
+            "version": "1.0"
+        },
+        "Cybereason": {
+            "detected": false,
+            "result": null,
+            "update": "20180308",
+            "version": null
+        },
+        "Cynet": {
+            "detected": true,
+            "result": "Malicious (score: 99)",
+            "update": "20240818",
+            "version": "4.0.1.1"
+        },
+        "DrWeb": {
+            "detected": true,
+            "result": "EICAR Test File (NOT a Virus!)",
+            "update": "20240818",
+            "version": "7.0.65.5230"
+        },
+        "ESET-NOD32": {
+            "detected": true,
+            "result": "Eicar test file",
+            "update": "20240818",
+            "version": "29745"
+        },
+        "Elastic": {
+            "detected": true,
+            "result": "eicar",
+            "update": "20240802",
+            "version": "4.0.158"
+        },
+        "Emsisoft": {
+            "detected": true,
+            "result": "EICAR-Test-File (A)",
+            "update": "20240818",
+            "version": "2024.1.0.53752"
+        },
+        "F-Secure": {
+            "detected": true,
+            "result": "EICAR_Test_File",
+            "update": "20240818",
+            "version": "18.10.1547.307"
+        },
+        "FireEye": {
+            "detected": true,
+            "result": "EICAR-Test-File (not a virus)",
+            "update": "20240818",
+            "version": "35.47.0.0"
+        },
+        "Fortinet": {
+            "detected": true,
+            "result": "EICAR_TEST_FILE",
+            "update": "20240818",
+            "version": "None"
+        },
+        "GData": {
+            "detected": true,
+            "result": "EICAR_TEST_FILE",
+            "update": "20240818",
+            "version": "A:25.38713B:27.37133"
+        },
+        "Google": {
+            "detected": true,
+            "result": "Detected",
+            "update": "20240818",
+            "version": "1723995035"
+        },
+        "Gridinsoft": {
+            "detected": true,
+            "result": "Trojan.U.EICAR_Test_File.dd",
+            "update": "20240818",
+            "version": "1.0.185.174"
+        },
+        "Ikarus": {
+            "detected": true,
+            "result": "EICAR-Test-File",
+            "update": "20240818",
+            "version": "6.3.12.0"
+        },
+        "Jiangmin": {
+            "detected": true,
+            "result": "EICAR-Test-File",
+            "update": "20240817",
+            "version": "16.0.100"
+        },
+        "K7AntiVirus": {
+            "detected": true,
+            "result": "EICAR_Test_File",
+            "update": "20240818",
+            "version": "12.182.52967"
+        },
+        "K7GW": {
+            "detected": true,
+            "result": "EICAR_Test_File",
+            "update": "20240818",
+            "version": "12.182.52965"
+        },
+        "Kaspersky": {
+            "detected": true,
+            "result": "EICAR-Test-File",
+            "update": "20240818",
+            "version": "22.0.1.28"
+        },
+        "Kingsoft": {
+            "detected": true,
+            "result": "Test.eicar.aa",
+            "update": "20240725",
+            "version": "None"
+        },
+        "Lionic": {
+            "detected": true,
+            "result": "Test.File.EICAR.y",
+            "update": "20240818",
+            "version": "8.16"
+        },
+        "MAX": {
+            "detected": true,
+            "result": "malware (ai score=100)",
+            "update": "20240818",
+            "version": "2023.1.4.1"
+        },
+        "MaxSecure": {
+            "detected": true,
+            "result": "VIRUS.EICAR.TEST",
+            "update": "20240816",
+            "version": "1.0.0.1"
+        },
+        "McAfee": {
+            "detected": true,
+            "result": "EICAR test file",
+            "update": "20240818",
+            "version": "6.0.6.653"
+        },
+        "MicroWorld-eScan": {
+            "detected": true,
+            "result": "EICAR-Test-File",
+            "update": "20240818",
+            "version": "14.0.409.0"
+        },
+        "Microsoft": {
+            "detected": true,
+            "result": "Virus:DOS/EICAR_Test_File",
+            "update": "20240818",
+            "version": "1.1.24070.3"
+        },
+        "NANO-Antivirus": {
+            "detected": true,
+            "result": "Marker.Dos.EICAR-Test-File.dyb",
+            "update": "20240818",
+            "version": "1.0.146.25796"
+        },
+        "Panda": {
+            "detected": true,
+            "result": "EICAR-AV-TEST-FILE",
+            "update": "20240818",
+            "version": "4.6.4.2"
+        },
+        "Rising": {
+            "detected": true,
+            "result": "EICAR-Test-File (CLASSIC)",
+            "update": "20240818",
+            "version": "25.0.0.27"
+        },
+        "SUPERAntiSpyware": {
+            "detected": true,
+            "result": "NotAThreat.EICAR[TestFile]",
+            "update": "20240816",
+            "version": "5.6.0.1032"
+        },
+        "Sangfor": {
+            "detected": true,
+            "result": "EICAR-Test-File (not a virus)",
+            "update": "20240806",
+            "version": "2.25.10.0"
+        },
+        "SentinelOne": {
+            "detected": true,
+            "result": "Static AI - Malicious COM",
+            "update": "20240417",
+            "version": "24.2.1.1"
+        },
+        "Skyhigh": {
+            "detected": true,
+            "result": "EICAR test file",
+            "update": "20240818",
+            "version": "v2021.2.0+4045"
+        },
+        "Sophos": {
+            "detected": true,
+            "result": "EICAR-AV-Test",
+            "update": "20240818",
+            "version": "2.5.5.0"
+        },
+        "Symantec": {
+            "detected": true,
+            "result": "EICAR Test String",
+            "update": "20240818",
+            "version": "1.22.0.0"
+        },
+        "SymantecMobileInsight": {
+            "detected": true,
+            "result": "ALG:EICAR Test String",
+            "update": "20240103",
+            "version": "2.0"
+        },
+        "TACHYON": {
+            "detected": true,
+            "result": "EICAR-Test-File",
+            "update": "20240818",
+            "version": "2024-08-18.02"
+        },
+        "Tencent": {
+            "detected": true,
+            "result": "EICAR.TEST.NOT-A-VIRUS",
+            "update": "20240818",
+            "version": "1.0.0.1"
+        },
+        "TrendMicro": {
+            "detected": true,
+            "result": "Eicar_test_file",
+            "update": "20240818",
+            "version": "11.0.0.1006"
+        },
+        "TrendMicro-HouseCall": {
+            "detected": true,
+            "result": "Eicar_test_file",
+            "update": "20240818",
+            "version": "10.0.0.1040"
+        },
+        "VBA32": {
+            "detected": true,
+            "result": "EICAR-Test-File",
+            "update": "20240816",
+            "version": "5.0.0"
+        },
+        "VIPRE": {
+            "detected": true,
+            "result": "EICAR-Test-File (not a virus)",
+            "update": "20240818",
+            "version": "6.0.0.35"
+        },
+        "Varist": {
+            "detected": true,
+            "result": "EICAR_Test_File",
+            "update": "20240818",
+            "version": "6.5.1.2"
+        },
+        "ViRobot": {
+            "detected": true,
+            "result": "EICAR-test",
+            "update": "20240818",
+            "version": "2014.3.20.0"
+        },
+        "VirIT": {
+            "detected": true,
+            "result": "EICAR-Test-File",
+            "update": "20240814",
+            "version": "9.5.767"
+        },
+        "Webroot": {
+            "detected": true,
+            "result": "W32.Eicar.Testvirus.Gen",
+            "update": "20240818",
+            "version": "1.0.0.403"
+        },
+        "Xcitium": {
+            "detected": true,
+            "result": "Malware@#2975xfk8s2pq1",
+            "update": "20240818",
+            "version": "36972"
+        },
+        "Yandex": {
+            "detected": true,
+            "result": "EICAR_test_file",
+            "update": "20240818",
+            "version": "5.5.2.24"
+        },
+        "Zillya": {
+            "detected": true,
+            "result": "EICAR.TestFile",
+            "update": "20240816",
+            "version": "2.0.0.5175"
+        },
+        "ZoneAlarm": {
+            "detected": true,
+            "result": "EICAR-Test-File",
+            "update": "20240818",
+            "version": "1.0"
+        },
+        "Zoner": {
+            "detected": true,
+            "result": "EICAR.Test.File-NoVirus.250",
+            "update": "20240818",
+            "version": "2.2.2.0"
+        },
+        "alibabacloud": {
+            "detected": true,
+            "result": "Engtest:multi/Eicar test file.Gen",
+            "update": "20240801",
+            "version": "2.1.0"
+        },
+        "huorong": {
+            "detected": true,
+            "result": "TEST/AVEngTestFile!EICAR",
+            "update": "20240818",
+            "version": "cc6c5b7:cc6c5b7:9038d5d:9038d5d"
+        },
+        "tehtris": {
+            "detected": false,
+            "result": null,
+            "update": "20240818",
+            "version": null
+        }
+    },
+    "sha1": "3395856ce81f2b7382dee72602f798b642f14140",
+    "sha256": "275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f",
+    "total": 71,
+    "verbose_msg": "Scan finished, information embedded"
+}

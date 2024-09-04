@@ -1,0 +1,44 @@
+# Configuration de Grafana pour Threat Intelligence Dashboard
+
+Ce document explique comment configurer Grafana et connecter votre base de données MySQL pour visualiser les données threat intelligence.
+
+## Étape 1 : Installation de Grafana
+1. Téléchargez et installez Grafana à partir de [Grafana Downloads](https://grafana.com/grafana/download).
+2. Démarrez le service Grafana :
+   - Sous Linux : `sudo systemctl start grafana-server`
+   - Sous Windows : Démarrez le service via le "Services" dans le panneau de configuration.
+
+## Étape 2 : Connexion à MySQL
+1. Accédez à Grafana via votre navigateur à `http://localhost:3000/`.
+2. Connectez-vous avec les identifiants par défaut (`admin` / `admin`).
+3. Dans le panneau de gauche, allez dans **Configuration** > **Data Sources**.
+4. Cliquez sur **Add data source** et sélectionnez **MySQL**.
+5. Entrez les informations de connexion à votre base de données MySQL (host, port, username, password, database).
+6. Cliquez sur **Save & Test** pour vérifier la connexion.
+
+## Étape 3 : Importer le tableau de bord
+1. Allez dans le panneau de gauche et cliquez sur **Manage** dans la section des tableaux de bord.
+2. Cliquez sur **Import** en haut à droite.
+3. Sélectionnez le fichier JSON (`dashboard.json`) dans le dossier `grafana_dashboards/`.
+4. Cliquez sur **Load** pour charger le tableau de bord.
+
+## Étape 4 : Visualisations
+**Répartition des adresses IP analysées par pays**:
+Type : Carte géographique
+Description : Ce graphique montre la répartition géographique des adresses IP suspectes analysées, par pays. Cela aide à identifier les régions où se concentrent les menaces.
+-**Top 10 des techniques d'attaque**:
+Type : Graphique à barres
+Description : Visualise les 10 techniques d'attaque les plus couramment utilisées d'après les données MITRE ATT&CK, permettant d'identifier les méthodes les plus employées par les cyberattaquants.
+-**Proportion de chaque type d'indicateur de compromission (IOC) actif**:
+Type : Diagramme circulaire (Pie Chart)
+Description : Ce graphique affiche la proportion des types d'indicateurs de compromission (IOC) qui sont activement surveillés. Cela aide à surveiller les menaces en cours.
+-**Nombre de fichiers malveillants détectés par moteur d'analyse**:
+Type : Tableau
+Description : Ce tableau montre les moteurs d'analyse qui ont détecté des fichiers malveillants, avec des informations sur le nombre total de fichiers détectés pour chaque moteur.
+-**Nombre de rapports d'abus par plage d'adresses IP**:
+Type : Jauge
+Description : Visualisation du nombre de rapports d'abus associés à des plages spécifiques d'adresses IP. Cela permet de suivre les réseaux suspects qui nécessitent une attention particulière.
+-**Techniques d'attaque par nom de pulse**:
+Type : Tableau
+Description : Ce tableau regroupe les différentes techniques d'attaque associées à chaque "pulse" de sécurité, permettant de visualiser quelles techniques sont liées à quels incidents.
+Vous pouvez ajuster ces visualisations en fonction des données stockées dans votre base de données MySQL.

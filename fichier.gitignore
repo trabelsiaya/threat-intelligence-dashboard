@@ -1,0 +1,36 @@
+# Ignorer les fichiers de configuration spécifiques à l'environnement
+.env
+config.ini
+
+# Ignorer les fichiers de base de données temporaires
+*.sql
+*.sqlite3
+
+# Ignorer les répertoires temporaires
+/temp/
+*.log
+*.tmp
+
+# Ignorer les fichiers générés par l'IDE
+.vscode/
+.idea/
+
+# Ignorer les fichiers générés par le système
+.DS_Store
+Thumbs.db
+
+# Ignorer les dossiers virtuels Python
+venv/
+__pycache__/
+*.py[cod]
+
+# Ignorer les fichiers de cache
+.cache/
+*.cache
+
+# Ignorer les fichiers de sortie JSON (si vous en générez)
+json_data/
+
+# Ignorer les fichiers de données spécifiques à l'utilisateur
+*.csv
+*.json
